@@ -1,8 +1,10 @@
-= HHRateSlider
+HHRateSlider
+========
 
 A rating slider control in Objective-C composed of 5 stars.
 
-== License
+License
+========
 
 (The MIT License)
 
