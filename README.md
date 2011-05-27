@@ -1,7 +1,7 @@
 HHRateSlider
 ========
 
-A rating slider control in Objective-C composed of 5 stars.
+A rating slider control in Objective-C composed of 5 stars. All you need are the files in HHRateSlider the rest is just to show how to hook it up.
 
 License
 ========
