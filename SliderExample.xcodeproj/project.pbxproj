@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C534CFC9138E93CB0006705B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C534CFC8138E93CB0006705B /* UIKit.framework */; };
+		C534CFCB138E93CB0006705B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C534CFCA138E93CB0006705B /* Foundation.framework */; };
+		C534CFCD138E93CB0006705B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C534CFCC138E93CB0006705B /* CoreGraphics.framework */; };
+		C534CFD3138E93CB0006705B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C534CFD1138E93CB0006705B /* InfoPlist.strings */; };
+		C534CFD6138E93CB0006705B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CFD5138E93CB0006705B /* main.m */; };
+		C534CFD9138E93CB0006705B /* StarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CFD8138E93CB0006705B /* StarAppDelegate.m */; };
+		C534CFDC138E93CB0006705B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C534CFDA138E93CB0006705B /* MainWindow.xib */; };
+		C534CFEC138E95270006705B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C534CFEB138E95270006705B /* QuartzCore.framework */; };
+		C534CFF5138F08120006705B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C534CFF4138F08120006705B /* RootViewController.m */; };
+		C5D2B9AF138FFBFE00F2E73F /* HHRateSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D2B9AC138FFBFE00F2E73F /* HHRateSlider.m */; };
+		C5D2B9B0138FFBFE00F2E73F /* Star.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D2B9AE138FFBFE00F2E73F /* Star.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C534CFC4138E93CB0006705B /* SliderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C534CFC8138E93CB0006705B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C534CFCA138E93CB0006705B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C534CFCC138E93CB0006705B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C534CFD0138E93CB0006705B /* SliderExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SliderExample-Info.plist"; sourceTree = "<group>"; };
+		C534CFD2138E93CB0006705B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C534CFD4138E93CB0006705B /* SliderExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SliderExample-Prefix.pch"; sourceTree = "<group>"; };
+		C534CFD5138E93CB0006705B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C534CFD7138E93CB0006705B /* StarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarAppDelegate.h; sourceTree = "<group>"; };
+		C534CFD8138E93CB0006705B /* StarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarAppDelegate.m; sourceTree = "<group>"; };
+		C534CFDB138E93CB0006705B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C534CFEB138E95270006705B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C534CFF3138F08120006705B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C534CFF4138F08120006705B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C5D2B9AB138FFBFE00F2E73F /* HHRateSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRateSlider.h; sourceTree = "<group>"; };
+		C5D2B9AC138FFBFE00F2E73F /* HHRateSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRateSlider.m; sourceTree = "<group>"; };
+		C5D2B9AD138FFBFE00F2E73F /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Star.h; sourceTree = "<group>"; };
+		C5D2B9AE138FFBFE00F2E73F /* Star.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Star.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C534CFC1138E93CB0006705B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C534CFEC138E95270006705B /* QuartzCore.framework in Frameworks */,
+				C534CFC9138E93CB0006705B /* UIKit.framework in Frameworks */,
+				C534CFCB138E93CB0006705B /* Foundation.framework in Frameworks */,
+				C534CFCD138E93CB0006705B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C534CFB9138E93CB0006705B = {
+			isa = PBXGroup;
+			children = (
+				C534CFCE138E93CB0006705B /* SliderExample */,
+				C534CFC7138E93CB0006705B /* Frameworks */,
+				C534CFC5138E93CB0006705B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C534CFC5138E93CB0006705B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C534CFC4138E93CB0006705B /* SliderExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C534CFC7138E93CB0006705B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C534CFEB138E95270006705B /* QuartzCore.framework */,
+				C534CFC8138E93CB0006705B /* UIKit.framework */,
+				C534CFCA138E93CB0006705B /* Foundation.framework */,
+				C534CFCC138E93CB0006705B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C534CFCE138E93CB0006705B /* SliderExample */ = {
+			isa = PBXGroup;
+			children = (
+				C5D2B9AA138FFBFE00F2E73F /* HHRateSlider */,
+				C534CFD7138E93CB0006705B /* StarAppDelegate.h */,
+				C534CFD8138E93CB0006705B /* StarAppDelegate.m */,
+				C534CFDA138E93CB0006705B /* MainWindow.xib */,
+				C534CFF3138F08120006705B /* RootViewController.h */,
+				C534CFF4138F08120006705B /* RootViewController.m */,
+				C534CFCF138E93CB0006705B /* Supporting Files */,
+			);
+			name = SliderExample;
+			path = Star;
+			sourceTree = "<group>";
+		};
+		C534CFCF138E93CB0006705B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C534CFD0138E93CB0006705B /* SliderExample-Info.plist */,
+				C534CFD1138E93CB0006705B /* InfoPlist.strings */,
+				C534CFD4138E93CB0006705B /* SliderExample-Prefix.pch */,
+				C534CFD5138E93CB0006705B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5D2B9AA138FFBFE00F2E73F /* HHRateSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C5D2B9AB138FFBFE00F2E73F /* HHRateSlider.h */,
+				C5D2B9AC138FFBFE00F2E73F /* HHRateSlider.m */,
+				C5D2B9AD138FFBFE00F2E73F /* Star.h */,
+				C5D2B9AE138FFBFE00F2E73F /* Star.m */,
+			);
+			path = HHRateSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C534CFC3138E93CB0006705B /* SliderExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C534CFDF138E93CB0006705B /* Build configuration list for PBXNativeTarget "SliderExample" */;
+			buildPhases = (
+				C534CFC0138E93CB0006705B /* Sources */,
+				C534CFC1138E93CB0006705B /* Frameworks */,
+				C534CFC2138E93CB0006705B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SliderExample;
+			productName = Star;
+			productReference = C534CFC4138E93CB0006705B /* SliderExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C534CFBB138E93CB0006705B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C534CFBE138E93CB0006705B /* Build configuration list for PBXProject "SliderExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C534CFB9138E93CB0006705B;
+			productRefGroup = C534CFC5138E93CB0006705B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C534CFC3138E93CB0006705B /* SliderExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C534CFC2138E93CB0006705B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C534CFD3138E93CB0006705B /* InfoPlist.strings in Resources */,
+				C534CFDC138E93CB0006705B /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C534CFC0138E93CB0006705B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C534CFD6138E93CB0006705B /* main.m in Sources */,
+				C534CFD9138E93CB0006705B /* StarAppDelegate.m in Sources */,
+				C534CFF5138F08120006705B /* RootViewController.m in Sources */,
+				C5D2B9AF138FFBFE00F2E73F /* HHRateSlider.m in Sources */,
+				C5D2B9B0138FFBFE00F2E73F /* Star.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C534CFD1138E93CB0006705B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C534CFD2138E93CB0006705B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C534CFDA138E93CB0006705B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C534CFDB138E93CB0006705B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C534CFDD138E93CB0006705B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C534CFDE138E93CB0006705B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C534CFE0138E93CB0006705B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Star/SliderExample-Prefix.pch";
+				INFOPLIST_FILE = "Star/SliderExample-Info.plist";
+				PRODUCT_NAME = SliderExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C534CFE1138E93CB0006705B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Star/SliderExample-Prefix.pch";
+				INFOPLIST_FILE = "Star/SliderExample-Info.plist";
+				PRODUCT_NAME = SliderExample;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C534CFBE138E93CB0006705B /* Build configuration list for PBXProject "SliderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C534CFDD138E93CB0006705B /* Debug */,
+				C534CFDE138E93CB0006705B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C534CFDF138E93CB0006705B /* Build configuration list for PBXNativeTarget "SliderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C534CFE0138E93CB0006705B /* Debug */,
+				C534CFE1138E93CB0006705B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C534CFBB138E93CB0006705B /* Project object */;
+}
