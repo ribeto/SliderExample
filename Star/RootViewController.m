@@ -38,9 +38,34 @@
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
   HHRateSlider* rateSlider = [[HHRateSlider alloc] initWithFrame:CGRectMake(0, 0, 480, 300)];
+  
   [self setView:rateSlider];
+  
+  [rateSlider addTarget:self 
+                 action:@selector(ratingChanged:) 
+       forControlEvents:UIControlEventValueChanged];
+  
   [rateSlider release];
   
+  
+  UILabel* ratingLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 50)];
+  
+  [ratingLabel setTextAlignment:UITextAlignmentCenter];
+  
+  [ratingLabel setFont:[UIFont boldSystemFontOfSize:50.0f]];
+  
+  [ratingLabel setCenter:CGPointMake( 240, 150)];
+  
+  [[self view] addSubview:ratingLabel];
+  
+  [ratingLabel release];
+  
+}
+
+- (void)ratingChanged:(HHRateSlider*)slider {
+  UILabel* ratingLabel = [[[self view] subviews] lastObject];
+  
+  [ratingLabel setText:[NSString stringWithFormat:@"%1.1f",[slider rating]]];
 }
 
 /*

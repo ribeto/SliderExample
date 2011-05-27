@@ -10,6 +10,8 @@
 
 @implementation HHRateSlider
 
+@synthesize rating = rating_;
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -44,8 +46,16 @@
       }
       
       [[self layer]  addSublayer:fillLayer];
+      fillLayer_ = fillLayer;
     }
     return self;
+}
+
+
+- (void)sendValueChanged:(float)newValue {
+  rating_ = newValue;
+  
+  [self sendActionsForControlEvents:UIControlEventValueChanged];
 }
 
 ////////////////////////////////////////////////////////
@@ -53,7 +63,7 @@
 
 - (void)processTouchForLocation:(CGPoint)location {
   
-  CALayer* fillLayer = [[[self layer] sublayers] lastObject];
+  CALayer* fillLayer = fillLayer_;
   
   CGRect fillRect = [fillLayer frame];
   
@@ -75,6 +85,7 @@
                                    newlocation, 
                                    fillRect.size.height)];
     
+    [self sendValueChanged:newlocation / totalWidth_ * 5.0];
   }
   
 }

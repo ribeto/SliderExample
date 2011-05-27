@@ -30,7 +30,11 @@
 
 
 @interface HHRateSlider : UIControl {
-  float totalWidth_;
+  float     totalWidth_;
+  float     rating_;
+  CALayer*  fillLayer_;
 }
+
+@property (nonatomic,readonly) float rating;
 
 @end
