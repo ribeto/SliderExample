@@ -77,6 +77,7 @@
   if( newlocation == increment && location.x < increment / 2.0 ) {
     newlocation = 0.0;
   }
+  newlocation = fmaxf(newlocation, 0.0);
   
   if( newlocation != fillRect.size.width ) {
   
